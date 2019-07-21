@@ -1,4 +1,7 @@
 # AppServiceUsers_IONIC
+
+PRESENTACION DEL PROYECTO VIA YOUTUBE:https://youtu.be/vmPbd_ihL4w
+
 En este proyectos estaremos mostrando una lista de usuarios con sus respectivas informaciones que son obtenidas de un Servicio API que proviene de este link:  https://randomuser.me/ , al dar click en cualquier  elemento se estará mostrando otra vista de app con una cantidad mayor de informaciones de ese usuario cliquiado. Este proyecto fue realizado por Erick David Rosario Alcantara con el editor de código VISUAL CODE.
 Detalles Específicos de la Composición de Carpetas del Proyecto:
 Nuestro proyecto esta basado en una arquitectura por niveles o paginas que estas son brindadas por el framework de IONIC, expliquemos:
