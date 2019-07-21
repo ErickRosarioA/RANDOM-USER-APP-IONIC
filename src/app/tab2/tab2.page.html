@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>
+      Users List
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-row>
+  <ion-col padding >
+    <div *ngFor="let usuario of usersList">
+      <ion-card >
+        <ion-item color="primary" full [routerLink]="['/users-info',usuario.name.first +' '+ usuario.name.last , usuario.location.street+' '+usuario.location.city, usuario.email, usuario.picture.large, usuario.phone]" routerLinkActive="router-link-active" >
+        <ion-avatar item-start>
+          <img [src]="usuario.picture.medium">
+        </ion-avatar>
+        <ion-label> &nbsp;&nbsp;{{ usuario.name.first | uppercase }} {{ usuario.name.last | uppercase }}</ion-label>
+        </ion-item>
+      </ion-card>
+    </div>
+  </ion-col>
+</ion-row>  
+
+</ion-content>

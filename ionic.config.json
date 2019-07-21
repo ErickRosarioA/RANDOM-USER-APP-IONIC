@@ -1,0 +1,7 @@
+{
+  "name": "UsersAppService",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
