@@ -1,25 +1,46 @@
 # RANDOM USER APP MOBILE IONIC
 
-PRESENTACION DEL PROYECTO VIA YOUTUBE:https://youtu.be/vmPbd_ihL4w
+**Presentación del Proyecto:**
 
-En este proyectos estaremos mostrando una lista de usuarios con sus respectivas informaciones que son obtenidas de un Servicio API que proviene de este link:  https://randomuser.me/ , al dar click en cualquier  elemento se estará mostrando otra vista de app con una cantidad mayor de informaciones de ese usuario cliquiado. Este proyecto fue realizado por Erick David Rosario Alcantara con el editor de código VISUAL CODE.
-Detalles Específicos de la Composición de Carpetas del Proyecto:
-Nuestro proyecto esta basado en una arquitectura por niveles o paginas que estas son brindadas por el framework de IONIC, expliquemos:
-•	Existen carpetas como e2e y resources es son creadas por la composición de un proyecto de ionic de las cuales provienen todas las configuraciones y librerías que se vayan a importar en el proyecto en uso.
+[Ver Video en YouTube](https://youtu.be/vmPbd_ihL4w)
 
-•	src: carpeta que contiene todos los elementos de nuestra app.
+**Descripción del Proyecto:**
 
-•	/src/app: aquí presentamos todos los archivos detallados, con la presentación de que por cada vista de nuestro proyecto sean almacenadas por carpetas individuales y con sus respetivos backend. (NOTA: Para comprender más el significado de cada carpeta del SRC favor investigar “IONIC ESTRUCTURA DE PROYECTOS”).
+Este proyecto muestra una lista de usuarios con información obtenida de un Servicio API disponible en [RandomUser.me](https://randomuser.me/). Al hacer clic en un usuario, se abrirá una nueva vista que proporciona información adicional sobre ese usuario. El proyecto fue desarrollado por Erick David Rosario Alcántara utilizando Visual Studio Code.
 
-Detalles de ejecución:
-Para realizar la ejecución de nuestro proyecto solo tenemos que:
-1.	Abrir el CMD o la terminal de VISUAL CODE.
+**Estructura del Proyecto:**
 
-2.	Dirigirnos hacia el directorio de ubicación de nuestro proyecto con el comando “cd (directorio)”.
+La estructura del proyecto se basa en una arquitectura por niveles proporcionada por el framework Ionic. Aquí están los detalles de la composición de carpetas:
 
-3.	Luego aplicar la ejecución de un servidor de ionic (“ionic serve”) comando para iniciar servidor, pero por más efectividad y visualización de diferentes plataformas ejecuto (“ionic serve --lab”) abre una pagina en tu navegador con un servidor tipo emulador de móviles.
+- **e2e** y **resources**: Carpetas creadas automáticamente por el proyecto Ionic, que incluyen configuraciones y librerías necesarias.
 
+- **src**: Contiene todos los elementos de la aplicación.
 
-4.	Ya tendríamos que estar viendo nuestro proyecto en ejecución en nuestro navegador web de nuestro pc.
+  - **/src/app**: Aquí se encuentran todos los archivos relacionados con la aplicación. Cada vista del proyecto se almacena en carpetas individuales, junto con su backend respectivo. (NOTA: Para más detalles sobre la estructura del SRC, consulta "IONIC ESTRUCTURA DE PROYECTOS").
+
+**Instrucciones de Ejecución:**
+
+1. Abre CMD o la terminal de Visual Studio Code.
+
+2. Navega al directorio del proyecto utilizando el comando:
+   ```bash
+   cd (directorio)
+3. Inicia el servidor de Ionic con el comando:
+   ```bash
+    ionic serve
+4. Para una visualización más efectiva en diferentes plataformas, utiliza:
+    ```bash
+    ionic serve --lab
+
+Esto abrirá una página en tu navegador con un servidor tipo emulador de móviles.
+
+Tu proyecto debería estar visible en tu navegador web.
+
+**Contacto:**
+
+Para cualquier consulta o comentario, puedes contactarme a través del correo electrónico:
+
+[erickrosario08@outlook.com](mailto:erickrosario08@outlook.com)
 
 ESTAREMOS DANDO MODIFICACIONES A ESTE PROYECTO PARA PODER LLEVARLO MAS A FONDO CON LO QUE ES EL FRAMEWORK DE IONIC. GRACIAS
+
